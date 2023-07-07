@@ -1,0 +1,13 @@
+prefix=/Users/rahulnarramneni/Documents/Projects/DS_Salary_Predictor/venv
+exec_prefix=/Users/rahulnarramneni/Documents/Projects/DS_Salary_Predictor/venv
+libdir=/Users/rahulnarramneni/Documents/Projects/DS_Salary_Predictor/venv/lib
+sharedlibdir=/Users/rahulnarramneni/Documents/Projects/DS_Salary_Predictor/venv/lib
+includedir=/Users/rahulnarramneni/Documents/Projects/DS_Salary_Predictor/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
