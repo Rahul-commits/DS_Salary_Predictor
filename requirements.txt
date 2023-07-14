@@ -3,10 +3,9 @@ pandas
 matplotlib
 seaborn
 sklearn
-catboost
 xgboost
 dill
 flask
-json
-pickle
--e .
+#json
+#pickle
+#-e .
